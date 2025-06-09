@@ -14,6 +14,7 @@ const Project = () => {
             }
         }
     };
+    const MotionDiv = motion.div; // Example of using the motion variable
 
     const item = {
         hidden: { opacity: 0, x: 20 },

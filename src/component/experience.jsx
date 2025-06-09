@@ -12,6 +12,7 @@ const Experience = () => {
             }
         }
     };
+    const MotionDiv = motion.div; // Example of using the motion variable
 
     // Animation for left side (year)
     const leftItem = {
@@ -51,7 +52,7 @@ const Experience = () => {
                 Experience
             </motion.h1>
             
-            <motion.div 
+            <MotionDiv 
                 variants={container}
                 initial="hidden"
                 whileInView="show"
@@ -102,7 +103,7 @@ const Experience = () => {
                         </motion.div>
                     </div>
                 ))}
-            </motion.div>
+            </MotionDiv>
         </div>
     )
 }

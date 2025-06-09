@@ -8,6 +8,7 @@ const Container = (delay) => ({
   visible: {x: 0, opacity: 1, transition: {delay: delay}},
 })
 
+const MotionDiv = motion.div; // Example of using the motion variable
 
 
 

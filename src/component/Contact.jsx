@@ -1,6 +1,7 @@
 import { CONTACT } from "../constants"
 import { motion, MotionConfig } from "framer-motion"
 
+const MotionDiv = motion.div; // Example of using the motion variable
 const Contact = () => {
     // Animation variants
     const container = {

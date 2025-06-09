@@ -17,6 +17,8 @@ const IconVariant = (duration) => ({
         }
     }
 })
+const MotionDiv = motion.div; // Example of using the motion variable
+
 
 const Tech = () => {
   return (
